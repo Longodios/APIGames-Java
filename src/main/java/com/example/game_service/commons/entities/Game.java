@@ -1,4 +1,4 @@
-package com.example.game_service.entities;
+package com.example.game_service.commons.entities;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -13,7 +13,7 @@ import lombok.*;
 public class Game {
     @Id
     @GeneratedValue( strategy = GenerationType.AUTO)
-    private String name;
     private Long id;
+    private String name;
 
 }
